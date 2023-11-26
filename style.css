@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: #0c0c0d;
+}
+
+.nav-text{
+  font-family: Editorial New Light;
+  font-size: 1.6vw;
+  font-weight: 800;
+  text-align: center;
+}
+.page1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+#navbar {
+  height: 90px;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: 1px solid #222;
+}
+#navbar h6 {
+  font-size: larger;
+  font-weight: 100;
+}
+img {
+  width: 160px;
+  margin-right: 100px;
+}
+.elem {
+  height: 400px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+.elem p {
+  font-size: large;
+}
+.elem2 h2 {
+  font-family: canopee;
+  font-size: 70px;
+  font-weight: 400;
+}
+.elem h3,
+.elem p {
+  margin-top: 25px;
+}
+.elem h3 {
+  font-family: canopee;
+  font-size: 1.4vw;
+}
+.elem2-caption p {
+  font-family: Domaine Disp Cond Medium;
+  font-weight: bolder;
+}
+.elem2-caption p span {
+  font-family: Editorial New Light;
+  font-weight: 100;
+}
+
+
+
+.elem .h3-caption {
+  font-size: 1.1vw;
+}
+.elem p {
+  font-family: Editorial New Light;
+}
+.elem1 {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+}
+.elem1 h3 span {
+  background-color: #b03a12;
+  color: #c2a797;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+
+.elem3 h3 span {
+  background-color: #b03a12;
+  color: #c2a797;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+.elem2 {
+  width: 30%;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  text-align: center;
+  margin: 0 70px;
+}
+.elem2 p {
+  font-size: 2.5vw;
+}
+.elem .elemImg {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  border: 1px solid #222;
+  transition: all ease 0.8s;
+}
+
+.elem1:hover .elemImg {
+  scale: 1.2;
+}
+.elem3:hover .elemImg {
+  scale: 1.2;
+}
+.elem3 {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page1 .main-text {
+  color: #fff;
+  margin: 0 28px;
+  background-color: #222;
+  font-size: 35.5vw;
+  text-align: center;
+  font-weight: 500;
+  font-family: canopee;
+  letter-spacing: -18px;
+  line-height: 500px;
+  overflow: hidden;
+}
+
+/* ----------------------------page-2 */
+
+.page2 {
+  width: 100%;
+  height: 187vh;
+  background-color: #fff;
+  padding-top: 13%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.page2-right {
+  border-left: 1px solid #222;
+  padding-left: 84px;
+  line-height: 7.9vw;
+}
+.page2-left {
+  padding-left: 2%;
+}
+.page2-left h1 {
+  font-family: canopee;
+  font-size: 10vw;
+}
+.page2-left img {
+  height: 37vw;
+  width: 30vw;
+  object-fit: cover;
+}
+.page2-left p {
+  font-family: Editorial New Light;
+  font-size: 2.5vw;
+}
+.page2-right img {
+  width: 55vw;
+  height: 40vw;
+  object-fit: cover;
+}
+.page2-right h1 {
+  font-family: canopee;
+}
+.page2-right p {
+  font-family: Editorial New Light;
+}
+.page2-leftLetter {
+  font-size: 6vw;
+  height: 20px;
+  background-color: #222;
+  color: #c2a797;
+  font-family: Editorial New Light;
+  font-weight: 900;
+}
+/* -------------------------------------------Page3 */
+
+.page3 {
+  width: 100%;
+  height: 60vh;
+  background-color: #fff;
+  padding-top: 40px;
+}
+.page3 .main-text {
+  color: #fff;
+  margin: 0 28px;
+  background-color: #222;
+  font-size: 29vw;
+  width: 72vw;
+
+  font-weight: 500;
+  font-family: canopee;
+  letter-spacing: -18px;
+  line-height: 400px;
+  overflow: hidden;
+}
+.page3 .sign {
+  width: 300px;
+}
+
+/* -------------------------------------page4 */
+.page4 {
+  width: 100%;
+  height: 140vh;
+  display: flex;
+
+
+  /* background-color: #b03a12; */
+  background-color: #fff;
+}
+
+.page4-box1 {
+  width: 40%;
+  border-right: 1px solid #222;
+  padding-right: 20px;
+}
+.page4-box1 h3 {
+  font-family: Editorial New Light;
+  font-size: 2.8vw;
+  font-size: 900;
+}
+.page4-box1 p {
+  font-family: Editorial New Light;
+  font-size: 3vw;
+}
+.page4-box2 {
+  padding-left: 5%;
+  width: 50%;
+}
+.page4-box2 h3 {
+  font-family: Editorial New Light;
+  font-size: 1vw;
+  padding: 10px 0;
+}
+.page4-box2 p {
+  font-family: Editorial New Light;
+  font-size: 1.2vw;
+}
+
+.page4-boxes {
+  display: flex;
+  width: 100%;
+
+  /* background-color: blue; */
+}
+#img-page4 {
+  object-fit: cover;
+}
+
+.page4-right {
+  width: 70%;
+  /* background-color: aqua; */
+}
+.page4-right h1 {
+  font-size: 5.5vw;
+  font-family: Domaine Disp Cond Medium;
+  font-family: 900;
+}
+.page4-left img {
+  width: 95%;
+  padding-top: 60px;
+}
+
+.page4-right {
+  padding: 0 20px;
+  border-left: 1px solid #222;
+}
+.page4-right p span {
+  font-size: 6vw;
+  background-color: #222;
+  color: #fff;
+}
+
+.page4-right p {
+  font-family: Editorial New Light;
+  font-size: 2vw;
+}
+.gola {
+  width: 90%;
+  height: 200px;
+  color: #222;
+  background-color: #fa490e95;
+  border: 3px solid #222;
+  border-radius: 60%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.gola h1 {
+  font-family: canopee;
+  font-size: 60px;
+  transform: translateX(-60%);
+  transition: all ease 1s;
+}
+#gola-arrow{
+  width: 40%;
+  height: 60px;
+  object-fit: cover;
+  transform: translateX(-200%);
+  transition: all ease 1s;
+
+}
+#gola-arrow a{
+  font-family: canopee;
+  font-size: 60px;
+  text-decoration: none;
+  color: #000;
+}
+
+.gola:hover h1{
+  transform: translateX(200%);
+}
+
+.gola:hover #gola-arrow{
+  transform: translateX(60%);
+}
+/* -----------------------------------page5 */
+
+.page5{
+  width: 100%;
+  height: 150px;
+  padding-top: 30px;
+  background-color: #b03a12;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+
+  /* overflow: hidden; */
+  white-space: nowrap;
+}
+.page5 h1{
+display: inline-block;
+color: #fff;
+background-color: #b03a12;
+font-size: 3.5vw;
+animation: scoll;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+.page5 span{
+  font-size: 4.5;
+  background-color: #222;
+}
+.Link{
+  font-size: 4.5;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+}
+
+@keyframes scoll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-100% - 5px));
+  }
+}
+.page5:hover h1{
+  animation-play-state: paused;
+}
